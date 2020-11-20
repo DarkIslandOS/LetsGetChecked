@@ -1,0 +1,8 @@
+google-intro-agree-tagname: "iframe"
+google-intro-agree-id: "introAgreeButton"
+google-search-field-css: "input#searchboxinput"
+google-search-button-css: "div.searchbox-searchbutton-container"
+google-left-panel-css: "h1.section-hero-header-title-title span:nth-child(1)"
+google-directions-icon-xpath: "//button[@data-value='Directions']"
+google-destination-field-xpath: "//input[@aria-label='Destination Dublin']"
+google-destination-field-attib: "aria-label"
