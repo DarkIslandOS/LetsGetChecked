@@ -12,7 +12,6 @@
         <cucumber.version>6.5.0</cucumber.version>
         <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
         <maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
-        <maven.surefire.version>2.22.2</maven.surefire.version>
         <selenium.version>3.141.59</selenium.version>
         <snake.yaml.version>1.21</snake.yaml.version>
     </properties>
@@ -38,7 +37,7 @@
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>${maven.surefire.version}</version>
+            <version>${maven.surefire.plugin.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
